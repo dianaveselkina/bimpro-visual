@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-import MyButton from './MyButton';
+import MyButton from './MyButton.vue';
 
 export default {
   components: {
