@@ -48,7 +48,6 @@ ul {
   list-style: none;
 }
 .header__container {
-  max-width: 1366px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
