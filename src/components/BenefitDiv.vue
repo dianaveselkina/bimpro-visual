@@ -2,17 +2,26 @@
   <div class="benefit_container">
     <div class="benefit__items">
       <hr />
-      <div class="benefit__item">
+      <div
+        class="benefit__item"
+        data-title="Размер скидки зависит от объема проекта и устанавливается индивидуально при расчете коммерческого предложения"
+      >
         <p class="orange">Скидка до 50 %</p>
         <p class="white">при заказе от 20 000м2</p>
       </div>
       <hr />
-      <div class="benefit__item">
+      <div
+        class="benefit__item"
+        data-title="На второй и последующие заказы вы получите дополнительную скидку 5%."
+      >
         <p class="orange">Скидка до 5 %</p>
         <p class="white">на последующие заказы</p>
       </div>
       <hr />
-      <div class="benefit__item">
+      <div
+        class="benefit__item"
+        data-title="Срок исполнения зависит от сложности задачи, размера проекта и рассчитывается индивидуально"
+      >
         <p class="orange">5 рабочих дней</p>
         <p class="white">средний срок исполнения</p>
       </div>
@@ -46,11 +55,29 @@ export default {
   justify-content: space-between;
 }
 .benefit__item {
+  position: relative;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+.benefit__item:hover::after {
+  content: attr(data-title);
+}
+.benefit__item:hover::after {
+  content: attr(data-title);
+  width: 262px;
+  height: 101px;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  color: 9DA0A3;
+  font-size: 18px;
+  padding: 20px;
 }
 .hr-line {
   padding: 0;
