@@ -43,7 +43,7 @@ export default {
   methods: {},
 };
 </script>
-<style>
+<style scoped>
 .benefit_container {
   padding: 56px 277px;
   background-color: #222224;

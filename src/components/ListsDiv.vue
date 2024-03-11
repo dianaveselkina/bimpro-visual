@@ -66,7 +66,7 @@ p > span {
 }
 .hr1 {
   border: 0.5px solid #9da0a3;
-  width: 784px;
+  width: 690px;
   height: 0px;
   opacity: 0.3;
 }
