@@ -9,7 +9,7 @@
       <MyButton>Рассчитать стоимость проекта</MyButton>
     </div>
     <div class="hero__slider">
-      <img class="hero__img" src="../img/hero_img_1.png" alt="building" />
+      <img class="hero__img" src="/img/hero_img_1.png" alt="building" />
     </div>
   </div>
 </template>

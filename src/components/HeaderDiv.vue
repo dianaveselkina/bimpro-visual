@@ -2,7 +2,7 @@
   <div class="header">
     <div class="header__container">
       <div class="header__logo">
-        <img class="logo__img" src="../img/logo.png" alt="logo" />
+        <img class="logo__img" src="/img/logo.png" alt="logo" />
       </div>
       <div class="header__link">
         <ul class="header__link-item">
