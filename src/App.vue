@@ -5,6 +5,7 @@
     <ServicesDiv />
     <BenefitDiv />
     <AnimationDiv />
+    <ListsDiv />
   </div>
 </template>
 <script>
@@ -13,6 +14,7 @@ import HeroDiv from './components/HeroDiv.vue';
 import ServicesDiv from './components/ServicesDiv.vue';
 import BenefitDiv from './components/BenefitDiv.vue';
 import AnimationDiv from './components/AnimationDiv.vue';
+import ListsDiv from './components/ListsDiv.vue';
 export default {
   components: {
     HeaderDiv,
@@ -20,6 +22,7 @@ export default {
     ServicesDiv,
     BenefitDiv,
     AnimationDiv,
+    ListsDiv,
   },
   data() {
     return {};
