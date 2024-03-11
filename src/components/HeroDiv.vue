@@ -44,6 +44,7 @@ export default {
 }
 .hero__title {
   font-size: 70px;
+  text-transform: uppercase;
 }
 p {
   padding: 25px 0 50px;

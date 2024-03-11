@@ -55,6 +55,7 @@ export default {
   color: white;
 }
 .services__title {
+  text-transform: uppercase;
   font-size: 50px;
   padding: 27px 0 80px;
 }

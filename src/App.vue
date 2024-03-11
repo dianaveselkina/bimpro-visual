@@ -3,17 +3,20 @@
     <HeaderDiv />
     <HeroDiv />
     <ServicesDiv />
+    <BenefitDiv />
   </div>
 </template>
 <script>
 import HeaderDiv from './components/HeaderDiv.vue';
 import HeroDiv from './components/HeroDiv.vue';
 import ServicesDiv from './components/ServicesDiv.vue';
+import BenefitDiv from './components/BenefitDiv.vue';
 export default {
   components: {
     HeaderDiv,
     HeroDiv,
     ServicesDiv,
+    BenefitDiv,
   },
   data() {
     return {};
