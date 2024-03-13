@@ -11,8 +11,7 @@ export default {
 </script>
 <style>
 .btn {
-  width: 400px;
-  height: 70px;
+  padding: 8px 35px 30px 35px;
   cursor: pointer;
   background-color: #ea4c14;
   font-size: 18px;

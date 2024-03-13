@@ -6,7 +6,7 @@
         Создадим 3D Визуализации, презентационные интерактивные и VR-материалы,
         анимации, жилой и коммерческой недвижимости
       </p>
-      <MyButton>Рассчитать стоимость проекта</MyButton>
+      <MyButton class="hero__btn">Рассчитать стоимость проекта</MyButton>
     </div>
     <div class="hero__slider">
       <img class="hero__img" src="/img/hero_img_1.png" alt="building" />
@@ -45,6 +45,10 @@ export default {
 .hero__title {
   font-size: 70px;
   text-transform: uppercase;
+}
+.hero__btn {
+  width: 340px;
+  height: 31px;
 }
 p {
   padding: 25px 0 50px;
