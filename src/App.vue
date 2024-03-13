@@ -7,8 +7,7 @@
     <AnimationDiv />
     <ListsDiv />
     <StepsDiv />
-    <DevelopmentDiv />
-    <ArchitectureDiv />
+    <VisualizationBlock />
   </div>
 </template>
 <script>
@@ -19,8 +18,7 @@ import BenefitDiv from './components/BenefitDiv.vue';
 import AnimationDiv from './components/AnimationDiv.vue';
 import ListsDiv from './components/ListsDiv.vue';
 import StepsDiv from './components/StepsDiv.vue';
-import DevelopmentDiv from './components/DevelopmentDiv.vue';
-import ArchitectureDiv from './components/ArchitectureDiv.vue';
+import VisualizationBlock from './components/VisualizationBlock.vue';
 export default {
   components: {
     HeaderDiv,
@@ -30,8 +28,7 @@ export default {
     AnimationDiv,
     ListsDiv,
     StepsDiv,
-    DevelopmentDiv,
-    ArchitectureDiv,
+    VisualizationBlock,
   },
   data() {
     return {};

@@ -1,12 +1,14 @@
 <template>
-  <div class="development__container">
-    <img src="/img/development_img.png" />
-    <div class="development__info">
-      <h2>визуализация комплексной застройки</h2>
-      <div class="development__item"><p>Визуализация жилых комплексов</p></div>
+  <div class="visual__container">
+    <img :src="imageUrl" alt="building" />
+    <div class="visual__info">
+      <h2>{{ title }}</h2>
+      <div class="visual__item">
+        <p>{{ text1 }}</p>
+      </div>
       <hr class="hr" />
-      <div class="development__item">
-        <p>Визуализация благоустройства территории</p>
+      <div class="visual__item">
+        <p>{{ text2 }}</p>
       </div>
       <hr class="hr" />
       <MyButton class="transparent">Оставить заявку</MyButton>
@@ -16,13 +18,19 @@
 <script>
 import MyButton from './MyButton.vue';
 export default {
+  props: {
+    title: String,
+    text1: String,
+    text2: String,
+    imageUrl: String,
+  },
   components: {
     MyButton,
   },
 };
 </script>
 <style scoped>
-.development__container {
+.visual__container {
   background: #2e2e31;
   color: white;
   display: flex;
@@ -32,7 +40,7 @@ img {
   width: 859px;
   height: auto;
 }
-.development__info {
+.visual__info {
   display: flex;
   flex-direction: column;
   padding: 82px 277px 0 80px;
