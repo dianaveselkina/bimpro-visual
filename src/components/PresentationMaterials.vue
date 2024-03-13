@@ -1,31 +1,28 @@
 <template>
   <div class="visual__container">
-    <div class="visual__img">
-      <img src="/img/visual5.png" alt="building" />
-      <img class="icon1" src="/img/icon_big.png" alt="icon" />
-    </div>
+    <img src="/img/visual6.png" alt="building" />
     <div class="visual__info">
-      <h2>3D, VR и видео материалы</h2>
+      <h2>дополнительные презентационные материалы</h2>
       <p>
         Являются дополнительными услугами к любому из основных видов
         визуализации
       </p>
       <div class="visual__items">
         <div class="visual__item">
-          <img class="icon" src="/img/icon1.png" alt="icon" />
-          <p>VR и 3D виртуальные туры</p>
+          <img class="icon" src="/img/icon5.png" alt="icon" />
+          <p>Планировочные схемы</p>
         </div>
         <div class="visual__item">
-          <img class="icon" src="/img/icon2.png" alt="icon" />
-          <p>3D облет 360°</p>
+          <img class="icon" src="/img/icon6.png" alt="icon" />
+          <p>3Визуализация генплана</p>
         </div>
         <div class="visual__item">
-          <img class="icon" src="/img/icon3.png" alt="icon" />
-          <p>3D видео туры</p>
+          <img class="icon" src="/img/icon7.png" alt="icon" />
+          <p>Визуализация фасадов</p>
         </div>
         <div class="visual__item">
-          <img class="icon" src="/img/icon4.png" alt="icon" />
-          <p>Анимация</p>
+          <img class="icon" src="/img/icon8.png" alt="icon" />
+          <p>Композиции с материалами</p>
         </div>
       </div>
       <MyButton class="transparent">Оставить заявку</MyButton>
@@ -42,7 +39,7 @@ export default {
 </script>
 <style scoped>
 .visual__container {
-  background: #2e2e31;
+  background: #222224;
   color: white;
   display: flex;
   flex-direction: row;
@@ -61,7 +58,7 @@ img {
   gap: 40px;
 }
 .visual__items {
-  padding: 70px 0 35px;
+  padding: 56px 0 35px;
 }
 .visual__item {
   display: flex;
@@ -91,12 +88,5 @@ h2 {
   max-width: 100%;
   width: auto;
   height: 70px;
-}
-.icon1 {
-  width: 286px;
-  height: 250px;
-  position: absolute;
-  top: 45%;
-  left: 35%;
 }
 </style>

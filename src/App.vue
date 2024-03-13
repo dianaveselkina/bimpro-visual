@@ -9,6 +9,8 @@
     <StepsDiv />
     <VisualizationBlock />
     <VideoMaterials />
+    <PresentationMaterials />
+    <ProjectsBlock />
   </div>
 </template>
 <script>
@@ -21,6 +23,8 @@ import ListsDiv from './components/ListsDiv.vue';
 import StepsDiv from './components/StepsDiv.vue';
 import VisualizationBlock from './components/VisualizationBlock.vue';
 import VideoMaterials from './components/VideoMaterials.vue';
+import PresentationMaterials from './components/PresentationMaterials.vue';
+import ProjectsBlock from './components/ProjectsBlock.vue';
 export default {
   components: {
     HeaderDiv,
@@ -32,6 +36,8 @@ export default {
     StepsDiv,
     VisualizationBlock,
     VideoMaterials,
+    PresentationMaterials,
+    ProjectsBlock,
   },
   data() {
     return {};
