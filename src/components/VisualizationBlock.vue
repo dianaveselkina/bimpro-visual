@@ -2,13 +2,24 @@
   <div class="visualization__container">
     <div class="visualization__cards">
       <VisualDiv
-        imageUrl="/img/development_img.png"
+        imageUrl="/img/visual1.png"
         title="визуализация комплексной застройки"
         text1="Визуализация жилых комплексов"
         text2="Визуализация благоустройства территории"
       />
-      <VisualDiv />
-      <VisualDiv />
+      <VisualDiv
+        class="color"
+        imageUrl="/img/visual2.png"
+        title="архитектурная визуализация"
+        text1="Визуализация жилых зданий"
+        text2="Визуализация общественных, промышленных и складских зданий"
+      />
+      <VisualDiv
+        imageUrl="/img/visual3.png"
+        title="интерьерная визуализация "
+        text1="Визуализация общественных пространств"
+        text2="Комплексная визуализация жилых помещений "
+      />
       <VisualDiv />
       <VisualDiv />
       <VisualDiv />
@@ -28,4 +39,8 @@ export default {
   methods: {},
 };
 </script>
-<style scoped></style>
+<style scoped>
+.color {
+  background: #222224;
+}
+</style>
