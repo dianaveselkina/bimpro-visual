@@ -8,6 +8,7 @@
     <ListsDiv />
     <StepsDiv />
     <VisualizationBlock />
+    <VideoMaterials />
   </div>
 </template>
 <script>
@@ -19,6 +20,7 @@ import AnimationDiv from './components/AnimationDiv.vue';
 import ListsDiv from './components/ListsDiv.vue';
 import StepsDiv from './components/StepsDiv.vue';
 import VisualizationBlock from './components/VisualizationBlock.vue';
+import VideoMaterials from './components/VideoMaterials.vue';
 export default {
   components: {
     HeaderDiv,
@@ -29,6 +31,7 @@ export default {
     ListsDiv,
     StepsDiv,
     VisualizationBlock,
+    VideoMaterials,
   },
   data() {
     return {};

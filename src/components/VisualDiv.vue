@@ -45,6 +45,8 @@ img {
   gap: 40px;
 }
 .visual__item {
+  display: flex;
+  flex-direction: row;
   padding-bottom: 35px;
   border-bottom: 1px solid #9da0a3;
 }
