@@ -1,12 +1,12 @@
 <template>
-  <div class="development__container">
-    <img src="/img/development_img.png" />
-    <div class="development__info">
-      <h2>визуализация комплексной застройки</h2>
-      <div class="development__item"><p>Визуализация жилых комплексов</p></div>
+  <div class="architecture__container">
+    <img src="/img/architecture__img.png" />
+    <div class="architecture__info">
+      <h2>архитектурная визуализация</h2>
+      <div class="architecture__item"><p>Визуализация жилых зданий</p></div>
       <hr class="hr" />
-      <div class="development__item">
-        <p>Визуализация благоустройства территории</p>
+      <div class="architecture__item">
+        <p>Визуализация общественных, промышленных и складских зданий</p>
       </div>
       <hr class="hr" />
       <MyButton class="transparent">Оставить заявку</MyButton>
@@ -22,8 +22,8 @@ export default {
 };
 </script>
 <style scoped>
-.development__container {
-  background: #2e2e31;
+.architecture__container {
+  background: #222224;
   color: white;
   display: flex;
   flex-direction: row;
@@ -32,7 +32,7 @@ img {
   width: 859px;
   height: auto;
 }
-.development__info {
+.architecture__info {
   display: flex;
   flex-direction: column;
   padding: 82px 277px 0 80px;

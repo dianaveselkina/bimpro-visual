@@ -8,6 +8,7 @@
     <ListsDiv />
     <StepsDiv />
     <DevelopmentDiv />
+    <ArchitectureDiv />
   </div>
 </template>
 <script>
@@ -19,6 +20,7 @@ import AnimationDiv from './components/AnimationDiv.vue';
 import ListsDiv from './components/ListsDiv.vue';
 import StepsDiv from './components/StepsDiv.vue';
 import DevelopmentDiv from './components/DevelopmentDiv.vue';
+import ArchitectureDiv from './components/ArchitectureDiv.vue';
 export default {
   components: {
     HeaderDiv,
@@ -29,6 +31,7 @@ export default {
     ListsDiv,
     StepsDiv,
     DevelopmentDiv,
+    ArchitectureDiv,
   },
   data() {
     return {};

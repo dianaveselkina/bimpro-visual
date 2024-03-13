@@ -39,7 +39,7 @@ export default {};
 <style scoped>
 .lists__container {
   padding: 100px 277px;
-  background-color: #222224;
+  background-color: #2e2e31;
   color: white;
   display: flex;
   flex-direction: row;
