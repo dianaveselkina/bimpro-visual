@@ -6,11 +6,9 @@
       <div class="visual__item">
         <p>{{ text1 }}</p>
       </div>
-      <hr class="hr" />
       <div class="visual__item">
         <p>{{ text2 }}</p>
       </div>
-      <hr class="hr" />
       <MyButton class="transparent">Оставить заявку</MyButton>
     </div>
   </div>
@@ -46,15 +44,13 @@ img {
   padding: 82px 277px 0 80px;
   gap: 40px;
 }
+.visual__item {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #9da0a3;
+}
 h2 {
   font-size: 50px;
   color: #efefef;
-}
-.hr {
-  border: 1px solid #9da0a3;
-  width: 690px;
-  height: 0px;
-  opacity: 0.3;
 }
 .transparent {
   background-color: rgba(28, 28, 28, 0);

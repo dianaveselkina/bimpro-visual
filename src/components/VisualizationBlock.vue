@@ -20,7 +20,12 @@
         text1="Визуализация общественных пространств"
         text2="Комплексная визуализация жилых помещений "
       />
-      <VisualDiv />
+      <VisualDiv
+        class="color"
+        imageUrl="/img/visual4.png"
+        title="рекламная и предметная визуализация"
+        text1="Визуализация для каталогов мебели, декора, освещения"
+      />
       <VisualDiv />
       <VisualDiv />
     </div>
@@ -41,6 +46,7 @@ export default {
 </script>
 <style scoped>
 .color {
+  border: none;
   background: #222224;
 }
 </style>
