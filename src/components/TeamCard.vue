@@ -1,8 +1,10 @@
 <template>
   <div class="card">
     <img :src="imageUrl" alt="foto" />
-    <p>{{ text }}</p>
-    <p>{{ text1 }}</p>
+    <div class="card__text">
+      <p class="card__text1">{{ text }}</p>
+      <p class="card__text2">{{ text1 }}</p>
+    </div>
   </div>
 </template>
 <script>
@@ -16,7 +18,6 @@ export default {
 </script>
 <style scoped>
 .card {
-  padding: 53px 76px;
   width: 319px;
   height: 501px;
   border-radius: 5px;
@@ -24,13 +25,28 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 22px;
-  font-size: 22px;
 }
-
+.card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 319px;
+  height: 94px;
+  background-color: #2e2e31;
+  border-top: 1px solid #ea4c14;
+}
+.card__text1 {
+  font-size: 22px;
+  color: #ea4c14;
+}
+.card__text2 {
+  font-size: 18px;
+  color: #fff;
+}
 img {
   max-width: 100%;
   width: auto;
-  height: 70px;
+  height: 404px;
 }
 </style>

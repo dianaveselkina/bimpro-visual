@@ -73,4 +73,16 @@ export default {
   font-size: 50px;
   padding: 27px 0 80px;
 }
+.services__title > span {
+  color: #ea4c14;
+}
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 59px 30px;
+}
+p {
+  padding: 20px 0 85px;
+  font-size: 22px;
+}
 </style>
