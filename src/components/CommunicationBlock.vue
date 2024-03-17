@@ -1,12 +1,15 @@
 <template>
   <DocketBlock />
+  <PartnersBlock />
 </template>
 <script>
 import DocketBlock from './DocketBlock.vue';
+import PartnersBlock from './PartnersBlock.vue';
 
 export default {
   components: {
     DocketBlock,
+    PartnersBlock,
   },
   data() {
     return {};

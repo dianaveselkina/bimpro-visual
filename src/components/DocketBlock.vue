@@ -2,32 +2,38 @@
   <div class="docket__container">
     <div class="list__items">
       <div class="list__item">
-        <p><span>как</span> мы поможем вашему бизнесу</p>
+        <p><span>Важно</span> знать</p>
       </div>
       <hr class="hr" />
       <div class="list__item">
-        <p><span>кому</span> наши решения помогут</p>
+        <p><span>гарантии,</span> прописанные в договоре</p>
       </div>
       <hr class="hr" />
       <div class="list__item">
-        <p><span>подробнее</span> о нашей работе</p>
+        <p><span>структура</span> работы</p>
       </div>
     </div>
     <div class="lists__description">
       <div class="list__item">
-        <p class="description">Снизить количество ошибок</p>
+        <p class="description">
+          Мы заинтересованы в взаимовыгодных рабочих отношениях с нашими
+          клиентами и в том, чтобы довести любой проект до завершения.
+        </p>
       </div>
       <hr class="hr1" />
       <div class="list__item">
-        <p class="description">Согласовать проект с заказчиком</p>
+        <p class="description">
+          Передаваемое вами ТЗ должно быть, по возможности, полным и подробным,
+          чтобы мы могли максимально точно выполнить поставленную задачу.
+        </p>
       </div>
       <hr class="hr1" />
       <div class="list__item">
-        <p class="description">Повысить привлекательность проекта</p>
-      </div>
-      <hr class="hr1" />
-      <div class="list__item">
-        <p class="description">Выделиться на фоне конкуррентов</p>
+        <p class="description">
+          Нам настолько нравятся наши работы, что мы просто не можем не
+          поделиться ими, поэтому по завершению проекта мы обычно размещаем его
+          в нашем портфолио на сайте, со ссылкой на заказчика.
+        </p>
       </div>
       <hr class="hr1" />
     </div>
@@ -73,8 +79,6 @@ p > span {
 .description {
   padding: 30px 0;
   font-size: 22px;
-  line-height: 123%;
-  letter-spacing: 0.01em;
-  color: #ea4c14;
+  color: #fff;
 }
 </style>
