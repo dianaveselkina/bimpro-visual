@@ -13,6 +13,7 @@
     <ProjectsBlock />
     <TeamBlock />
     <CommunicationBlock />
+    <FooterBlock />
   </div>
 </template>
 <script>
@@ -29,6 +30,7 @@ import PresentationMaterials from './components/PresentationMaterials.vue';
 import ProjectsBlock from './components/ProjectsBlock.vue';
 import TeamBlock from './components/TeamBlock.vue';
 import CommunicationBlock from './components/CommunicationBlock.vue';
+import FooterBlock from './components/FooterBlock.vue';
 export default {
   components: {
     HeaderDiv,
@@ -44,6 +46,7 @@ export default {
     ProjectsBlock,
     TeamBlock,
     CommunicationBlock,
+    FooterBlock,
   },
   data() {
     return {};

@@ -35,6 +35,7 @@ export default {
   flex-direction: row;
 }
 img {
+  position: relative;
   width: 859px;
   height: auto;
 }
