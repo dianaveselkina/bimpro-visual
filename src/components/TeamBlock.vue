@@ -1,0 +1,71 @@
+<template>
+  <div class="services__container">
+    <h2 class="services__title">Команда BIM<span></span>PRO</h2>
+    <p>
+      Главные действующие лица, именно они создают визуализации и наполняют кадр
+      жизнью.
+    </p>
+    <div class="services__cards">
+      <CardServices
+        imageUrl="/img/services_img_1.png"
+        text="Визуализация
+  комплексной застройки"
+      />
+      <CardServices
+        imageUrl="/img/services_img_2.png"
+        text="Архитектурная
+  визуализация"
+      />
+      <CardServices
+        imageUrl="/img/services_img_3.png"
+        text="Интерьерная
+  визуализация"
+      />
+      <CardServices
+        imageUrl="/img/services_img_4.png"
+        text="Предметная и рекламная
+  визуализация"
+      />
+      <CardServices
+        imageUrl="/img/services_img_5.png"
+        text="3D, VR и видео
+  материалы"
+      />
+      <CardServices
+        imageUrl="/img/services_img_6.png"
+        text="Дополнительные
+  материалы"
+      />
+    </div>
+  </div>
+</template>
+<script>
+import CardServices from './CardServices.vue';
+
+export default {
+  components: {
+    CardServices,
+  },
+  data() {
+    return {};
+  },
+  methods: {},
+};
+</script>
+<style scoped>
+.services__container {
+  padding: 100px 277px;
+  background-color: #222224;
+  color: white;
+}
+.services__title {
+  text-transform: uppercase;
+  font-size: 50px;
+  padding: 27px 0 80px;
+}
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px 26px;
+}
+</style>
