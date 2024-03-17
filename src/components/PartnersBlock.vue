@@ -1,5 +1,5 @@
 <template>
-  <div class="services__container">
+  <div class="partners__container">
     <h2 class="services__title">наши партнеры</h2>
     <div class="services__cards">
       <div class="services__card">
@@ -51,7 +51,7 @@ export default {
 };
 </script>
 <style scoped>
-.services__container {
+.partners__container {
   padding: 100px 277px;
   background-color: #2e2e31;
   color: white;

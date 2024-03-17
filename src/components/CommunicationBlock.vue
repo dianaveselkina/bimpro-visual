@@ -1,15 +1,18 @@
 <template>
   <DocketBlock />
   <PartnersBlock />
+  <MediaBlock />
 </template>
 <script>
 import DocketBlock from './DocketBlock.vue';
 import PartnersBlock from './PartnersBlock.vue';
+import MediaBlock from './MediaBlock.vue';
 
 export default {
   components: {
     DocketBlock,
     PartnersBlock,
+    MediaBlock,
   },
   data() {
     return {};
