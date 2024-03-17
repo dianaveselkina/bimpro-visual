@@ -6,6 +6,16 @@
         imageUrl="/img/media_img1.png"
         text="Бюджет придаст импульс BIM"
       />
+      <MediaCard
+        imageUrl="/img/media_img2.png"
+        text="Социалка не успевает
+за технологиями"
+      />
+      <MediaCard imageUrl="/img/media_img1.png" text="BIM как религия" />
+      <MediaCard
+        imageUrl="/img/media_img2.png"
+        text="Благоустройство на самый взыскательный вкус"
+      />
     </div>
   </div>
 </template>
@@ -35,5 +45,6 @@ export default {
 .medias__cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 </style>
