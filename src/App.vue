@@ -11,6 +11,7 @@
     <VideoMaterials />
     <PresentationMaterials />
     <ProjectsBlock />
+    <TeamBlock />
   </div>
 </template>
 <script>
@@ -25,6 +26,7 @@ import VisualizationBlock from './components/VisualizationBlock.vue';
 import VideoMaterials from './components/VideoMaterials.vue';
 import PresentationMaterials from './components/PresentationMaterials.vue';
 import ProjectsBlock from './components/ProjectsBlock.vue';
+import TeamBlock from './components/TeamBlock.vue';
 export default {
   components: {
     HeaderDiv,
@@ -38,6 +40,7 @@ export default {
     VideoMaterials,
     PresentationMaterials,
     ProjectsBlock,
+    TeamBlock,
   },
   data() {
     return {};

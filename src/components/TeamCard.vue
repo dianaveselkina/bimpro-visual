@@ -2,12 +2,14 @@
   <div class="card">
     <img :src="imageUrl" alt="foto" />
     <p>{{ text }}</p>
+    <p>{{ text1 }}</p>
   </div>
 </template>
 <script>
 export default {
   props: {
     text: String,
+    text1: String,
     imageUrl: String,
   },
 };

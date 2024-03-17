@@ -1,50 +1,60 @@
 <template>
   <div class="services__container">
-    <h2 class="services__title">Команда BIM<span></span>PRO</h2>
+    <h2 class="services__title">Команда BIM<span>PRO</span></h2>
     <p>
       Главные действующие лица, именно они создают визуализации и наполняют кадр
       жизнью.
     </p>
     <div class="services__cards">
-      <CardServices
-        imageUrl="/img/services_img_1.png"
-        text="Визуализация
-  комплексной застройки"
+      <TeamCard
+        imageUrl="/img/team_img1.png"
+        text="Никитин Максим"
+        text1="Ведущий визуализатор"
       />
-      <CardServices
-        imageUrl="/img/services_img_2.png"
-        text="Архитектурная
-  визуализация"
+      <TeamCard
+        imageUrl="/img/team_img2.png"
+        text="Ратникова Екатерина"
+        text1="Художник-визуализатор"
       />
-      <CardServices
-        imageUrl="/img/services_img_3.png"
-        text="Интерьерная
-  визуализация"
+      <TeamCard
+        imageUrl="/img/team_img3.png"
+        text="Полина Мустафина"
+        text1="Художник-визуализатор"
       />
-      <CardServices
-        imageUrl="/img/services_img_4.png"
-        text="Предметная и рекламная
-  визуализация"
+      <TeamCard
+        imageUrl="/img/team_img4.png"
+        text="Егоров Александр"
+        text1="Архитектор"
       />
-      <CardServices
-        imageUrl="/img/services_img_5.png"
-        text="3D, VR и видео
-  материалы"
+      <TeamCard
+        imageUrl="/img/team_img5.png"
+        text="Анна Бендер"
+        text1="Визуализатор-моделлер"
       />
-      <CardServices
-        imageUrl="/img/services_img_6.png"
-        text="Дополнительные
-  материалы"
+      <TeamCard
+        imageUrl="/img/team_img6.png"
+        text="Ксения Воронцова"
+        text1="Художник-визуализатор"
+      />
+      <TeamCard
+        imageUrl="/img/team_img7.png"
+        text="Светлана Михеева"
+        text1="Руководитель проекта"
+      />
+      <TeamCard
+        imageUrl="/img/team_img8.png"
+        text="Андрей Кудрин"
+        text1="Bim-менержер"
       />
     </div>
   </div>
 </template>
 <script>
-import CardServices from './CardServices.vue';
+import TeamCard from './TeamCard.vue';
 
 export default {
   components: {
-    CardServices,
+    TeamCard,
   },
   data() {
     return {};
@@ -62,10 +72,5 @@ export default {
   text-transform: uppercase;
   font-size: 50px;
   padding: 27px 0 80px;
-}
-.services__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 29px 26px;
 }
 </style>
