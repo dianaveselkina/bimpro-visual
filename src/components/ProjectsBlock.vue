@@ -25,6 +25,34 @@
     <div class="btn__block">
       <MyButton class="transparent">больше проектов</MyButton>
     </div>
+    <div class="ihfo__block">
+      <h2 class="info__title">Слово руководителя</h2>
+      <div class="info__wrapper">
+        <div class="info__text">
+          <p class="info__text1">
+            Мы знаем, как важно наличие качественных визуализаций для реализации
+            недвижимости в современном мире, поэтому делаем продукт в полном
+            соответствии с высоким стандартом, что помогает повысить
+            привлекательность проекта и привлечь новых клиентов на популярных
+            площадках.
+          </p>
+          <p class="info__text1">
+            Вдыхаем жизнь в каждый рендер и даем возможность потребителю увидеть
+            объект еще до его реализации - это то, что мы по настоящему любим и
+            умеем.
+          </p>
+        </div>
+        <div class="info__line"></div>
+        <div class="info__foto">
+          <div class="foto__director">
+            <img src="/img/project_img7.png" alt="foto" />
+          </div>
+          <p class="foto__description">
+            <span>МАКСИМ НИКИТИН</span><br />Ведущий визуализатор
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -102,5 +130,39 @@ h2 {
 .btn__block {
   display: flex;
   justify-content: center;
+}
+.info__title {
+  padding-top: 123px;
+}
+.info__line {
+  background-color: #ea4c14;
+  height: 195px;
+  width: 1px;
+  margin: 0 90px;
+}
+.info__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info__foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.foto__director {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.info__text1 {
+  margin: 60px 0 22px;
+  font-size: 18px;
+}
+.foto__description {
+  text-align: center;
 }
 </style>
