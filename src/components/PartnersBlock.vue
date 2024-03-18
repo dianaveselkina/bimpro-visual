@@ -72,4 +72,8 @@ export default {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+.services__card:hover {
+  cursor: pointer;
+  border: 1px solid #ea4c14;
+}
 </style>
