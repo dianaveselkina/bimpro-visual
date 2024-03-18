@@ -26,32 +26,53 @@
         </div>
       </div>
       <div class="directions__block">
-        <ul class="footer__link-item">
+        <ul class="footer__link1-item">
           <li>
             <p>Другие наши направления:</p>
           </li>
           <li>
-            <a href="#">Проектирование</a>
+            <a class="link" href="#">Проектирование</a>
           </li>
           <li>
-            <a href="#">Дизайн</a>
+            <a class="link" href="#">Дизайн</a>
           </li>
         </ul>
       </div>
       <div class="footer__contacts">
         <div class="footer__map">
-          <p>г. Санкт-Петербург, Шпалерная ул. д. 51</p>
-          <div class="email__block">
-            <p>+7 812 330 10 40</p>
-            <p>project@bimpro.ru</p>
-          </div>
-          <div class="schedule__block">
-            <p>ПН-ПТ 9:00 — 18:00</p>
-            <p>СБ, ВС — Выходные</p>
+          <p class="address">г. Санкт-Петербург, Шпалерная ул. д. 51</p>
+          <div class="map__wrapper">
+            <div class="email__block">
+              <p>+7 812 330 10 40</p>
+              <p>project@bimpro.ru</p>
+            </div>
+            <div class="schedule__block">
+              <p>ПН-ПТ 9:00 — 18:00</p>
+              <p>СБ, ВС — Выходные</p>
+            </div>
           </div>
           <img class="map__img" src="/img/map.png" alt="map" />
         </div>
-        <div class="telephone__block"></div>
+        <div class="telephone__block">
+          <div class="telephone__madrid">
+            <p>Calle Gravina 21, Bajo 3</p>
+            <p>Madrid</p>
+            <p>+34 657 57 25 65</p>
+            <p>+34 653 53 35 68</p>
+          </div>
+          <div class="telephone__múnich">
+            <p>Zentnerstraße 35</p>
+            <p>Múnich</p>
+            <p>+49 157 325 40 621</p>
+            <p>+49 157 703 06 271</p>
+          </div>
+          <div class="telephone__astana">
+            <p>Мекен Жайы 5 Көше</p>
+            <p>Астана</p>
+            <p>+34 657 57 25 65</p>
+            <p>+34 653 53 35 68</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -76,16 +97,45 @@ ul {
   color: white;
 }
 .footer__top {
+  padding: 100px 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.map__wrapper {
+  padding-bottom: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.link {
+  font-size: 18px;
+  color: #ea4c14;
+  text-decoration: underline;
+}
+.address {
+  font-size: 18px;
+  color: #ea4c14;
+  padding-bottom: 47px;
 }
 .logo__img {
   width: 186px;
   height: 47px;
 }
 .footer__link-item {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.footer__link1-item {
+  padding: 66px 0 55px;
   display: flex;
   flex-direction: row;
   gap: 35px;
