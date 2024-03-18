@@ -55,21 +55,21 @@
         </div>
         <div class="telephone__block">
           <div class="telephone__madrid">
-            <p>Calle Gravina 21, Bajo 3</p>
-            <p>Madrid</p>
-            <p>+34 657 57 25 65</p>
+            <p class="orange">Calle Gravina 21, Bajo 3</p>
+            <p class="city">Madrid</p>
+            <p class="city__tel">+34 657 57 25 65</p>
             <p>+34 653 53 35 68</p>
           </div>
           <div class="telephone__múnich">
-            <p>Zentnerstraße 35</p>
-            <p>Múnich</p>
-            <p>+49 157 325 40 621</p>
+            <p class="orange">Zentnerstraße 35</p>
+            <p class="city">Múnich</p>
+            <p class="city__tel">+49 157 325 40 621</p>
             <p>+49 157 703 06 271</p>
           </div>
           <div class="telephone__astana">
-            <p>Мекен Жайы 5 Көше</p>
-            <p>Астана</p>
-            <p>+34 657 57 25 65</p>
+            <p class="orange">Мекен Жайы 5 Көше</p>
+            <p class="city">Астана</p>
+            <p class="city__tel">+34 657 57 25 65</p>
             <p>+34 653 53 35 68</p>
           </div>
         </div>
@@ -107,6 +107,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 }
 .map__wrapper {
   padding-bottom: 47px;
@@ -139,5 +140,21 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 35px;
+}
+.telephone__block {
+  display: grid;
+  grid-template-columns: repeat(2, 240px);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+}
+.orange {
+  color: #ea4c14;
+  font-size: 18px;
+}
+.city {
+  padding: 12px 0 36px;
+}
+.city__tel {
+  padding-bottom: 12px;
 }
 </style>
