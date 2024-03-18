@@ -13,21 +13,25 @@
     </div>
     <div class="medias__cards">
       <NewsCard
+        class="services__card"
         imageUrl="/img/news_img.png"
         text="Новый офис  BIMPRO в центре города 
 ждем всех на открытии"
       />
       <NewsCard
+        class="services__card"
         imageUrl="/img/news_img.png"
         text="Новый офис  BIMPRO в центре города 
 ждем всех на открытии"
       />
       <NewsCard
+        class="services__card"
         imageUrl="/img/news_img.png"
         text="Новый офис  BIMPRO в центре города 
 ждем всех на открытии"
       />
       <NewsCard
+        class="services__card"
         imageUrl="/img/news_img.png"
         text="Новый офис  BIMPRO в центре города 
 ждем всех на открытии"
@@ -77,5 +81,9 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.services__card:hover {
+  cursor: pointer;
+  border: 1px solid #ea4c14;
 }
 </style>
