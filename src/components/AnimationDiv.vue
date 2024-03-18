@@ -11,7 +11,11 @@
               </div>
             </div>
             <p class="percent1">%</p>
-            <div class="percent__band"></div>
+            <div class="percent__band">
+              <transition name="band">
+                <div class="band__orange"></div>
+              </transition>
+            </div>
           </div>
         </div>
         <p>
@@ -91,12 +95,30 @@ export default {
   top: 0;
   right: 0;
   width: 44px;
-  height: 218px;
+  height: 212px;
   border: solid 3px #ea4c14;
+}
+.band__orange {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #4d14ea;
+  width: 38px;
+  height: 1px;
 }
 .animation__title {
   padding-left: 276px;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+.band-enter-active,
+.band-leave-active {
+  transition: all 1s ease-out;
+}
+.band-enter,
+.band-leave-to {
+  transform: scale(8);
+  opacity: 1;
 }
 </style>
