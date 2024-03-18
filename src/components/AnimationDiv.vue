@@ -4,6 +4,13 @@
       <div class="animation__info">
         <div class="animation__percent">
           <div class="percent">
+            <div class="percent__counter">
+              <p class="num">+</p>
+              <div class="counter">
+                {{ counter }}
+              </div>
+            </div>
+            <p class="percent1">%</p>
             <div class="percent__band"></div>
           </div>
         </div>
@@ -20,7 +27,18 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      counter: 0,
+    };
+  },
+  mounted() {
+    setInterval(() => {
+      this.counter++;
+    }, 1000);
+  },
+};
 </script>
 <style scoped>
 .animation__container {
@@ -41,6 +59,32 @@ export default {};
   width: 208px;
   height: 218px;
   border: solid 3px #ffffff;
+}
+.percent__counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.percent1 {
+  position: absolute;
+  bottom: 18px;
+  right: 8px;
+  font-size: 32px;
+}
+.num {
+  color: #ea4c14;
+  font-size: 70px;
+  font-weight: bold;
+}
+.counter {
+  color: #ea4c14;
+  font-size: 100px;
+  font-weight: bold;
 }
 .percent__band {
   position: absolute;
