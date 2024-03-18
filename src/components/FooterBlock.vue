@@ -169,8 +169,12 @@ ul {
 }
 .copyright {
   background-color: #070707;
-  padding: 15px 277px 25px 277px;
+  padding: 40px 277px 60px 277px;
   color: #fff;
   font-size: 18px;
+}
+hr {
+  border: none;
+  border-top: 0.5px solid #e3e2e2;
 }
 </style>
