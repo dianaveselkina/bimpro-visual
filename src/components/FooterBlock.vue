@@ -72,9 +72,12 @@
             <p class="city__tel">+34 657 57 25 65</p>
             <p>+34 653 53 35 68</p>
           </div>
+          <p class="privacy__policy">Политика конфиденциальности</p>
         </div>
       </div>
     </div>
+    <hr class="footer__hr" />
+    <p class="copyright">Все права защищены ООО ”БИМПРО”</p>
   </div>
 </template>
 
@@ -92,7 +95,7 @@ ul {
   list-style: none;
 }
 .footer__container {
-  padding: 15px 277px 25px 277px;
+  padding: 15px 277px 95px 277px;
   background-color: #070707;
   color: white;
 }
@@ -107,7 +110,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 20px;
 }
 .map__wrapper {
   padding-bottom: 47px;
@@ -147,6 +149,14 @@ ul {
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
 }
+.privacy__policy {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  padding-top: 170px;
+  color: #ea4c14;
+  text-decoration: underline;
+  font-size: 18px;
+}
 .orange {
   color: #ea4c14;
   font-size: 18px;
@@ -156,5 +166,11 @@ ul {
 }
 .city__tel {
   padding-bottom: 12px;
+}
+.copyright {
+  background-color: #070707;
+  padding: 15px 277px 25px 277px;
+  color: #fff;
+  font-size: 18px;
 }
 </style>
