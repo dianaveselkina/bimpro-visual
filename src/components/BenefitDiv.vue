@@ -95,4 +95,15 @@ export default {
   color: white;
   text-transform: uppercase;
 }
+@media (width < 480px) {
+  .benefit_container {
+    padding: 43px 20px 79px;
+    background: #2e2e31;
+  }
+  .benefit__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 </style>
