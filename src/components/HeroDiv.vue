@@ -38,7 +38,7 @@ export default {
   color: white;
 }
 .hero__description {
-  max-width: 400px;
+  max-width: 444px;
   display: flex;
   flex-direction: column;
 }
@@ -52,5 +52,24 @@ export default {
 }
 p {
   padding: 25px 0 50px;
+}
+@media (width < 480px) {
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 10px;
+  }
+  .hero__description {
+    padding: 80px 60px;
+  }
+  .hero__title {
+    font-size: 38px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 13px;
+  }
 }
 </style>
