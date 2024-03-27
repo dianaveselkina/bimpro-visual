@@ -115,7 +115,9 @@ export default {
   font-size: 40px;
   text-transform: uppercase;
 }
-
+.rating-mobil {
+  display: none;
+}
 .band-enter-active,
 .band-leave-active {
   transition: all 1s ease-out;
@@ -148,6 +150,7 @@ export default {
     display: none;
   }
   .rating-mobil {
+    display: block;
     text-align: center;
     padding: 53px 0 56px;
   }

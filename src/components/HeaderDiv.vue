@@ -78,6 +78,9 @@ ul {
   display: flex;
   flex-direction: column;
 }
+.header__contacts-mobil {
+  display: none;
+}
 @media (width < 480px) {
   .header__container {
     padding: 15px 20px;

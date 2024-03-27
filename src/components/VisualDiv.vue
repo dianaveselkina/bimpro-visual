@@ -67,4 +67,23 @@ h2 {
   background-color: #ea4c14;
   border: 2px solid #ea4c14;
 }
+@media (width < 480px) {
+  .visual__container {
+    background: #2e2e31;
+    padding: 0 20px 37px;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .visual__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0;
+  }
+}
 </style>
