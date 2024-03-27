@@ -89,4 +89,36 @@ h2 {
   width: auto;
   height: 70px;
 }
+@media (width < 480px) {
+  .visual__container {
+    background: #2e2e31;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .icon1 {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+  }
+  .visual__info {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 20px 43px;
+    gap: 40px;
+  }
+  .icon {
+    max-width: 100%;
+    width: auto;
+    height: 50px;
+  }
+  .transparent {
+    margin: 0 auto;
+  }
+}
 </style>

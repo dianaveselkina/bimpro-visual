@@ -165,4 +165,27 @@ h2 {
 .foto__description {
   text-align: center;
 }
+@media (width < 480px) {
+  .project__container {
+    padding: 0 20px;
+    background: #2e2e31;
+  }
+  .tags__block {
+    display: none;
+  }
+  .img__block {
+    display: flex;
+    flex-direction: column;
+  }
+  .project__img2,
+  .project__img2 {
+    width: 280px;
+    height: 350px;
+  }
+  h2 {
+    font-size: 31px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
 </style>

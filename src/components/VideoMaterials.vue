@@ -127,5 +127,8 @@ h2 {
     width: auto;
     height: 50px;
   }
+  .transparent {
+    margin: 0 auto;
+  }
 }
 </style>
