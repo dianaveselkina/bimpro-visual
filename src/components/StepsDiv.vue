@@ -113,4 +113,9 @@ h2 > span {
   background-color: #ea4c14;
   border: 2px solid #ea4c14;
 }
+@media (width < 480px) {
+  .steps__container {
+    display: none;
+  }
+}
 </style>

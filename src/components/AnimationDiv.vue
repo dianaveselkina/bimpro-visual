@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <p>
+        <p class="rating">
           *По данным ГК «Первый Трест» № 12 среди российских застройщиков в
           рейтинге ЕРЗ, клиент «БИМПРО»
         </p>
@@ -26,6 +26,10 @@
       <h2 class="animation__title">
         Визуализированная недвижимость продается на 20% быстрее!
       </h2>
+      <p class="rating-mobil">
+        *По данным ГК «Первый Трест» № 12 среди российских застройщиков в
+        рейтинге ЕРЗ, клиент «БИМПРО»
+      </p>
     </div>
     <img src="/img/animation_img.png" alt="building" />
   </div>
@@ -120,5 +124,32 @@ export default {
 .band-leave-to {
   transform: scale(8);
   opacity: 1;
+}
+@media (width < 480px) {
+  .animation__container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .animation__info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  img {
+    display: none;
+  }
+  .animation__title {
+    padding: 0;
+    font-size: 27px;
+    text-align: center;
+  }
+  .rating {
+    display: none;
+  }
+  .rating-mobil {
+    text-align: center;
+    padding: 53px 0 56px;
+  }
 }
 </style>

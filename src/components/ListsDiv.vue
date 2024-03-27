@@ -77,4 +77,9 @@ p > span {
   letter-spacing: 0.01em;
   color: #ea4c14;
 }
+@media (width < 480px) {
+  .lists__container {
+    display: none;
+  }
+}
 </style>
