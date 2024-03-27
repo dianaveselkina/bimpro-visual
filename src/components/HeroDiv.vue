@@ -57,6 +57,7 @@ p {
   .hero__container {
     display: flex;
     flex-direction: column;
+    background: #2e2e31;
     padding: 15px 20px;
     gap: 10px;
   }

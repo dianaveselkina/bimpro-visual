@@ -34,4 +34,13 @@ img {
   width: auto;
   height: 70px;
 }
+@media (width < 480px) {
+  .card {
+    background-color: #1a1a1a;
+    padding: 68px 18px;
+    border-radius: 5px;
+    border: none;
+    height: 70px;
+  }
+}
 </style>

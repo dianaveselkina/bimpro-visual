@@ -64,4 +64,17 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   gap: 29px 26px;
 }
+@media (width < 480px) {
+  .services__container {
+    padding: 75px 20px 43px;
+    background: #2e2e31;
+  }
+  .services__title {
+    display: none;
+  }
+  .services__cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>

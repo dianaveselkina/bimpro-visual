@@ -81,6 +81,7 @@ ul {
 @media (width < 480px) {
   .header__container {
     padding: 15px 20px;
+    background: #2e2e31;
   }
   .header__logo-mobil {
     display: block;
