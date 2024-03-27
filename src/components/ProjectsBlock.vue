@@ -187,5 +187,8 @@ h2 {
     text-transform: uppercase;
     text-align: center;
   }
+  .ihfo__block {
+    display: none;
+  }
 }
 </style>

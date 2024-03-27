@@ -85,4 +85,9 @@ p {
   padding: 20px 0 85px;
   font-size: 22px;
 }
+@media (width < 480px) {
+  .services__container {
+    display: none;
+  }
+}
 </style>
