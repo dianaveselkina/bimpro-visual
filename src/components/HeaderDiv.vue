@@ -4,6 +4,9 @@
       <div class="header__logo">
         <img class="logo__img" src="/img/logo.png" alt="logo" />
       </div>
+      <div class="header__logo-mobil">
+        <img class="logo__img" src="/img/logo__footer.png" alt="logo" />
+      </div>
       <div class="header__link">
         <ul class="header__link-item">
           <li>
@@ -29,6 +32,9 @@
       <div class="header__contacts">
         <span>+7 812 330 10 40</span>
         <span>project@bimpro.ru</span>
+      </div>
+      <div class="header__contacts-mobil">
+        <span>+7 812 330 10 40</span>
       </div>
     </div>
   </div>
@@ -56,6 +62,9 @@ ul {
   background-color: #222224;
   color: white;
 }
+.header__logo-mobil {
+  display: none;
+}
 .logo__img {
   width: 186px;
   height: 47px;
@@ -68,5 +77,25 @@ ul {
 .header__contacts {
   display: flex;
   flex-direction: column;
+}
+@media (width < 480px) {
+  .header__container {
+    padding: 15px 20px;
+  }
+  .header__logo-mobil {
+    display: block;
+  }
+  .header__logo,
+  .header__link-item,
+  .header__contacts {
+    display: none;
+  }
+  .logo__img {
+    width: 186px;
+    height: 47px;
+  }
+  .header__contacts-mobil {
+    display: block;
+  }
 }
 </style>
