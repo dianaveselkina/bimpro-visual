@@ -133,10 +133,16 @@ export default {
     display: flex;
     flex-direction: column;
   }
+  .animation__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   .animation__info {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
+    padding: 60px 0;
   }
   img {
     display: none;
