@@ -76,4 +76,23 @@ export default {
   cursor: pointer;
   border: 1px solid #ea4c14;
 }
+@media (width < 480px) {
+  .partners__container {
+    padding: 15px 20px;
+    background: #2e2e31;
+    display: block;
+  }
+  .services__title {
+    font-size: 38px;
+  }
+  .services__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .services__card {
+    width: 120px;
+    height: 120px;
+  }
+}
 </style>

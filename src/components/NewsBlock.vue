@@ -86,4 +86,9 @@ export default {
   cursor: pointer;
   border: 1px solid #ea4c14;
 }
+@media (width < 480px) {
+  .media__container {
+    display: none;
+  }
+}
 </style>

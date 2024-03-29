@@ -72,4 +72,9 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
+@media (width < 480px) {
+  .media__container {
+    display: none;
+  }
+}
 </style>

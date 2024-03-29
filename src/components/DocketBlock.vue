@@ -5,30 +5,30 @@
         <p><span>Важно</span> знать</p>
       </div>
       <hr class="hr" />
-      <div class="list__item">
+      <div class="list__item hidden">
         <p><span>гарантии,</span> прописанные в договоре</p>
       </div>
       <hr class="hr" />
-      <div class="list__item">
+      <div class="list__item hidden">
         <p><span>структура</span> работы</p>
       </div>
     </div>
     <div class="lists__description">
-      <div class="list__item">
+      <div class="list__item hidden">
         <p class="description">
           Мы заинтересованы в взаимовыгодных рабочих отношениях с нашими
           клиентами и в том, чтобы довести любой проект до завершения.
         </p>
       </div>
       <hr class="hr1" />
-      <div class="list__item">
+      <div class="list__item hidden">
         <p class="description">
           Передаваемое вами ТЗ должно быть, по возможности, полным и подробным,
           чтобы мы могли максимально точно выполнить поставленную задачу.
         </p>
       </div>
       <hr class="hr1" />
-      <div class="list__item">
+      <div class="list__item hidden">
         <p class="description">
           Нам настолько нравятся наши работы, что мы просто не можем не
           поделиться ими, поэтому по завершению проекта мы обычно размещаем его
@@ -80,5 +80,22 @@ p > span {
   padding: 30px 0;
   font-size: 22px;
   color: #fff;
+}
+@media (width < 480px) {
+  .docket__container {
+    padding: 15px 20px;
+    background: #2e2e31;
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+  .hr,
+  .hr1 {
+    display: none;
+  }
+  p {
+    font-size: 48px;
+  }
 }
 </style>
