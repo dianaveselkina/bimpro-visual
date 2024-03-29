@@ -62,7 +62,10 @@ p {
     gap: 10px;
   }
   .hero__description {
-    padding: 80px 60px;
+    padding: 80px 0;
+  }
+  .hero__btn {
+    margin: 0 auto;
   }
   .hero__title {
     font-size: 38px;
