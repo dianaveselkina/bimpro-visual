@@ -168,7 +168,7 @@ h2 {
 @media (width < 480px) {
   .project__container {
     padding: 0 20px 50px;
-    background: #2e2e31;
+    background: #222224;
   }
   .tags__block {
     display: none;

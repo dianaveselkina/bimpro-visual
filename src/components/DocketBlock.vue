@@ -84,7 +84,7 @@ p > span {
 @media (width < 480px) {
   .docket__container {
     padding: 15px 20px;
-    background: #2e2e31;
+    background: #222224;
     display: block;
   }
   .hidden {

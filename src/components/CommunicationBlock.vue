@@ -24,7 +24,11 @@
           placeholder="Телефон"
         />
       </form>
-      <MyButton class="hero__btn">Рассчитать стоимость проекта</MyButton>
+      <MyButton class="communication__btn">Получить консультацию</MyButton>
+      <p>
+        Нажав на кнопку, я соглашаюсь на&nbsp;обработку
+        <span>персональных данных</span>
+      </p>
     </div>
   </div>
 </template>
@@ -72,7 +76,7 @@ export default {
 }
 @media (width < 480px) {
   .communication__container {
-    background: #2e2e31;
+    background: #222224;
     padding: 15px 20px;
   }
   .calculation,
@@ -80,17 +84,45 @@ export default {
     display: none;
   }
   .communication__container-mobil {
-    display: block;
+    background: #2e2e31;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
     max-width: 480px;
     height: auto;
+    padding: 56px 20px;
   }
   h2 {
     font-size: 48px;
     text-align: center;
   }
   .form {
+    margin: 41px 0 30px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+  input {
+    padding: 16px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+  }
+  .communication__btn {
+    padding: 19px 45px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 24px;
+    padding: 40px 0 56px;
+    text-align: center;
+  }
+  span {
+    font-size: 24px;
+    color: #ea4c14;
   }
 }
 </style>
