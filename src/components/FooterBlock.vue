@@ -188,5 +188,10 @@ hr {
     color: #fff;
     font-size: 18px;
   }
+  .footer__top,
+  .directions__block,
+  .footer__contacts {
+    display: none;
+  }
 }
 </style>
