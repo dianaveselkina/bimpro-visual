@@ -177,4 +177,16 @@ hr {
   border: none;
   border-top: 0.5px solid #e3e2e2;
 }
+@media (width < 480px) {
+  .footer__container {
+    background: #070707;
+    padding: 15px 20px;
+  }
+  .copyright {
+    background-color: #070707;
+    padding: 40px 20px 60px;
+    color: #fff;
+    font-size: 18px;
+  }
+}
 </style>
