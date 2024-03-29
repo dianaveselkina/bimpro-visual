@@ -116,7 +116,7 @@ h2 {
   background-color: rgba(28, 28, 28, 0);
   border: 2px solid #f5f5f5;
   border-radius: 6px;
-  padding: 8px 35px 8px 35px;
+  padding: 16px 90px;
 }
 .transparent:hover {
   background-color: #ea4c14;
@@ -167,7 +167,7 @@ h2 {
 }
 @media (width < 480px) {
   .project__container {
-    padding: 0 20px;
+    padding: 0 20px 50px;
     background: #2e2e31;
   }
   .tags__block {
@@ -181,6 +181,9 @@ h2 {
   .project__img2 {
     width: 280px;
     height: 350px;
+  }
+  .transparent {
+    max-width: 380px;
   }
   h2 {
     font-size: 31px;

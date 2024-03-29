@@ -47,8 +47,8 @@ export default {
   text-transform: uppercase;
 }
 .hero__btn {
-  width: 340px;
-  height: 31px;
+  max-width: 340px;
+  height: 50px;
 }
 p {
   padding: 25px 0 50px;
