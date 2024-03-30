@@ -75,8 +75,9 @@ h2 {
     flex-direction: column;
   }
   h2 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+    padding: 0px 24px;
   }
   .visual__info {
     display: flex;

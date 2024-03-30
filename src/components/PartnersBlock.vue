@@ -87,12 +87,16 @@ export default {
   }
   .services__cards {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
   .services__card {
-    width: 120px;
-    height: 120px;
+    max-width: 108px;
+    height: auto;
+  }
+  img {
+    object-fit: contain;
   }
 }
 </style>
