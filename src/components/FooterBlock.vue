@@ -25,6 +25,62 @@
           </ul>
         </div>
       </div>
+      <div class="footer__top-mobil">
+        <img class="logo__img" src="/img/logo__footer.png" alt="logo" />
+        <div class="email__block">
+          <p class="phone">+7 812 330 10 40</p>
+          <p>project@bimpro.ru</p>
+        </div>
+      </div>
+      <div class="footer__main">
+        <div class="footer__link">
+          <ul class="footer__link-item">
+            <li>
+              <a href="#">Услуги</a>
+            </li>
+            <li>
+              <a href="#">Преимущества</a>
+            </li>
+            <li>
+              <a href="#">Проекты</a>
+            </li>
+            <li>
+              <a href="#">Команда</a>
+            </li>
+            <li>
+              <a href="#">Гарантии</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__map">
+          <p class="address">
+            г. Санкт-Петербург<br />
+            Шпалерная ул. д. 51
+          </p>
+          <div class="map__wrapper">
+            <div class="schedule__block">
+              <p class="schedule">График работы:</p>
+              <p>ПН-ПТ 9:00 — 18:00</p>
+              <p>СБ, ВС — Выходные</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="privacy__policy">Политика конфиденциальности</p>
+      <div class="directions__block-mobil">
+        <ul class="footer__link1-item">
+          <li>
+            <p>Другие наши направления:</p>
+          </li>
+          <li>
+            <a class="link" href="#">Проектирование</a>
+          </li>
+          <li>
+            <a class="link" href="#">Дизайн</a>
+          </li>
+        </ul>
+      </div>
+
       <div class="directions__block">
         <ul class="footer__link1-item">
           <li>
@@ -106,6 +162,9 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.footer__top-mobil {
+  display: none;
+}
 .footer__contacts {
   display: flex;
   flex-direction: row;
@@ -181,6 +240,42 @@ hr {
   .footer__container {
     background: #070707;
     padding: 15px 20px;
+  }
+  .footer__top-mobil {
+    padding: 44px 0 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .phone {
+    padding-bottom: 32px;
+  }
+  .footer__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__link-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .address {
+    color: #fff;
+  }
+  .footer__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .schedule {
+    padding-bottom: 32px;
+  }
+  .footer__link1-item {
+    justify-content: space-between;
+    gap: 1px;
+  }
+  .privacy__policy {
+    padding-top: 40px;
   }
   .copyright {
     background-color: #070707;
